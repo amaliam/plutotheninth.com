@@ -58,8 +58,6 @@ hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin:
 
 input, select { vertical-align: middle; }
 
-body { background-color: #000; }
-
 /**
  * Font normalization inspired by YUI Library's fonts.css: developer.yahoo.com/yui/
  */
@@ -151,13 +149,17 @@ button {  width: auto; overflow: visible; }
 
 body, select, input, textarea {
   /* #444 looks better than black: twitter.com/H_FJ/statuses/11800719859 */
-  color: #444;
+  /* color: #444; */
   /* Set your base font here, to apply evenly */
   /* font-family: Georgia, serif;  */
+  color: #fff;
+  background-color: #000;
 }
 
 /* Headers (h1, h2, etc) have no default font-size or margin; define those yourself */
 h1, h2, h3, h4, h5, h6 { font-weight: bold; }
+
+h1 { font-family: 'Smythe', arial, serif; font-size: 90px; }
 
 a, a:active, a:visited { color: #607890; }
 a:hover { color: #036; }
