@@ -58,6 +58,7 @@ hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin:
 
 input, select { vertical-align: middle; }
 
+body { background-color: #000; }
 
 /**
  * Font normalization inspired by YUI Library's fonts.css: developer.yahoo.com/yui/
