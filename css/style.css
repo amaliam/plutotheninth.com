@@ -159,7 +159,20 @@ body, select, input, textarea {
 /* Headers (h1, h2, etc) have no default font-size or margin; define those yourself */
 h1, h2, h3, h4, h5, h6 { font-weight: bold; }
 
-h1 { font-family: 'Smythe', arial, serif; font-size: 90px; }
+h1 { 
+  font-family: 'Mountains of Christmas', serif;
+  font-size: 84px;
+  font-style: normal;
+  font-weight: 400;
+  text-shadow: 2px 2px 2px #aaa;
+
+
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: 0.056em;
+  word-spacing: 0em;
+  line-height: 1.2;
+}
 
 a, a:active, a:visited { color: #607890; }
 a:hover { color: #036; }
